@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: tan;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+}
+#banner{
+    background-color: aliceblue;
+    width: 35%;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(30, 30, 30);
+    border-radius: 8px;
+}
+p{
+    color: black;
+    text-align: center;
+}
+#horario{
+    padding-top: 10px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+}
+#footer{
+    color: aliceblue;
+}

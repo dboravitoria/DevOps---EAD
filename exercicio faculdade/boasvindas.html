@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hora do Dia</title>
+</head>
+<body id="corpo">
+    <h1>Hora do dia</h1>
+    <div id="banner">
+        <p id="horario">Agora são 9 horas.</p>
+        <img src="/exercício faculdade/manha.jpeg" alt="paisagem manhã">
+    </div>
+    <footer>
+        <p id="footer">&copy;Curso em Vídeo</p>
+    </footer>
+
+    <script>
+        window.onload = function(){
+            var agora = new Date()
+            var hora = agora.getHours()
+            var corpo = document.getElementById('corpo')
+            if(hora >= 12){
+                corpo.style.backgroundColor = '#ffffff'
+                
+            }
+        }
+        
+        
+    </script>
+</body>
+</html>
